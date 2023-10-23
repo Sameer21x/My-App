@@ -17,7 +17,20 @@
     color: var(--black);    
 }
 
+.button{
+  border-radius: 33px; 
+  border: none;
+  color: white;
+  font-size: 15px;
+  padding: 11px 26px 11px 26px; 
+  background: linear-gradient(180deg, #3ef660 26.71%, #5ae8a1 99.36%);
+}
 
-  
+.button:hover{
+  background: white;
+  cursor: pointer;
+  color: var(--orange);
+  border: 1px solid var(--orange);
+}
 
   
